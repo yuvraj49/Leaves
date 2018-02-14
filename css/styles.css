@@ -1,0 +1,106 @@
+body {
+
+	
+	text-align: center;
+	margin: 0px;
+	padding-top: 40px;
+	top: 80px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+primary-color-value {
+
+	background: #7473A9;
+}
+
+
+.parallax {
+	
+	 /*background: url(images/hero.jpeg) no-repeat center fixed; */
+	/*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+	height: 400px;
+	
+}
+
+#hero1 {
+	
+
+}
+
+
+
+.hero-local {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.hero-self {
+	flex: 1;
+}
+
+/* nav bar received from outside*/
+
+.nav-local {
+	height: 80px;
+
+}
+
+.details-page {
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.images-padding {
+	padding: 20px;
+
+
+
+}
+
+
+
+ <style>
+
+ 	ul li {
+ 		 display: inline;
+ 	}
+
+
+
+   @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+ 
+   *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
+   
+ 
+   h1 {padding: 100px 0; font-weight: 400; text-align: center;}
+   p {margin: 0 0 20px; line-height: 1.5;}
+ 
+   .main {margin: 0 auto; min-width: 320px; max-width: 800px;}
+   .content {background: #fff; color: #7473A9;}
+   .content > div {display: none; padding: 20px 25px 5px;}
+ 
+   input {display: none;}
+   label {display: inline-block; padding: 15px 25px; font-weight: 600; text-align: center;}
+   label:hover {color: #fff; cursor: pointer;}
+   input:checked + label {background: #7473A9; color: #fff;}
+ 
+   #tab1:checked ~ .content #content1,
+   #tab2:checked ~ .content #content2,
+   #tab3:checked ~ .content #content3,
+   #tab4:checked ~ .content #content4 {
+     display: block;
+   }
+ 
+   @media screen and (max-width: 400px) { label {padding: 15px 10px;} }
+</style>
+
+
+
+
+

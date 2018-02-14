@@ -1,6 +1,4 @@
 body {
-
-	
 	text-align: center;
 	margin: 0px;
 	padding-top: 40px;
@@ -9,36 +7,20 @@ body {
 }
 
 primary-color-value {
-
 	background: #7473A9;
 }
 
-
 .parallax {
-	
-	 /*background: url(images/hero.jpeg) no-repeat center fixed; */
-	/*background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
 	height: 400px;
-	
 }
-
-#hero1 {
-	
-
-}
-
-
 
 .hero-local {
-
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
 }
+
 .hero-self {
 	flex: 1;
 }
@@ -47,22 +29,16 @@ primary-color-value {
 
 .nav-local {
 	height: 80px;
-
 }
 
 .details-page {
-
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
 .images-padding {
 	padding: 20px;
-
-
-
 }
-
 
 
  <style>
@@ -70,9 +46,6 @@ primary-color-value {
  	ul li {
  		 display: inline;
  	}
-
-
-
    @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
  
    *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
